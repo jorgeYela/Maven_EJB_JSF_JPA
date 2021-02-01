@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf16096156182520" configfile="/Practica_3_EJB_JSF_JPA/src/main/webapp/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="index.xhtml" x="338" y="2482" id="pf16096157410084" referenceLink="//@navigationRule.2/@navigationCase.0/@toViewId|" path="/index.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="admin/index.xhtml" x="338" y="2098" id="pf16096157410098" referenceLink="//@navigationRule.2/@navigationCase.1/@toViewId|" path="/admin/index.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="admin/*" x="122" y="1330" id="pf160961574100923" referenceLink="//@navigationRule.2/@fromViewId|" path="/admin/*"/>
+  <nodes xsi:type="pageflow:PFPage" name="admin/producto.xhtml" x="338" y="178" id="pf160961574100929" referenceLink="//@navigationRule.2/@navigationCase.2/@toViewId|" path="/admin/producto.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="admin/bodega.xhtml" x="338" y="562" id="pf160961574100930" referenceLink="//@navigationRule.2/@navigationCase.3/@toViewId|" path="/admin/bodega.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="admin/categoria.xhtml" x="338" y="946" id="pf160961574100931" referenceLink="//@navigationRule.2/@navigationCase.4/@toViewId|" path="/admin/categoria.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="admin/empleados.xhtml" x="338" y="1330" id="pf160961574101032" referenceLink="//@navigationRule.2/@navigationCase.5/@toViewId|" path="/admin/empleados.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="admin/micuenta.xhtml" x="338" y="1714" id="pf160961574101033" referenceLink="//@navigationRule.2/@navigationCase.6/@toViewId|" path="/admin/micuenta.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="i/*" x="122" y="2482" id="pf16097834690886" referenceLink="//@navigationRule.0/@fromViewId|" path="/inicio/*"/>
+  <nodes xsi:type="pageflow:PFPage" name="public/login.xhtml" x="338" y="2866" id="pf16097834690888" referenceLink="//@navigationRule.0/@navigationCase.1/@toViewId|" path="/public/login.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="empleado/index.xhtml" x="122" y="3762" id="pf161033884267920" referenceLink="//@navigationRule.1/@fromViewId|" path="/empleado/index.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="index.xhtml" x="122" y="4466" id="pf161033891562733" referenceLink="//@navigationRule.1/@navigationCase.0/@toViewId|" path="/index.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="empleado/cliente.xhtml" x="338" y="3250" id="pf161033891562734" referenceLink="//@navigationRule.1/@navigationCase.2/@toViewId|" path="/empleado/cliente.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="empleado/facturas.xhtml" x="338" y="3634" id="pf161033891562735" referenceLink="//@navigationRule.1/@navigationCase.3/@toViewId|" path="/empleado/facturas.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="empleado/nuevaFactura.xhtml" x="338" y="4018" id="pf161033891562736" referenceLink="//@navigationRule.1/@navigationCase.4/@toViewId|" path="/empleado/nuevaFactura.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="empleado/pedidos.xhtml" x="338" y="4402" id="pf161033891562737" referenceLink="//@navigationRule.1/@navigationCase.5/@toViewId|" path="/empleado/pedidos.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="empleado/micuenta.xhtml" x="338" y="4786" id="pf161033891562738" referenceLink="//@navigationRule.1/@navigationCase.6/@toViewId|" path="/empleado/micuenta.xhtml"/>
+</pageflow:Pageflow>
